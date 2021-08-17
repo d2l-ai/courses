@@ -3,7 +3,7 @@ title: <a href="https://c.d2l.ai/berkeley-stat-157/"> Introduction to Deep Learn
 lecturers: <a href="https://www.linkedin.com/in/smola/">Alex Smola,</a> <a href="https://www.linkedin.com/in/mulicmu/">Mu Li</a>
 date: 2019-01-22
 enddate: 2019-5-9
-venue: UC Berkeley, STAT 157
+venue: STAT 157, UC Berkeley
 logo: assets/images/berkeley.png
 ---
 
