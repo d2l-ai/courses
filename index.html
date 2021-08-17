@@ -1,3 +1,34 @@
-<!-- TODO(mli) simply redict, add a page later. -->
+---
+layout: default
+---
 
-<meta http-equiv="refresh" content="0; URL='./berkeley-stat-157/" />
+<div class="container row">
+    <h1 class="cv-title"><span class="blue white-text">{{ site.title }}</span></h1>
+    {% assign steps = site.steps | sort: 'date' | reverse %}
+    {% for step in steps %}
+    <div class="item">
+        <i class="vertical-line"></i>
+        <h2 class="item-date">{{ step.date | date: '%m/%Y' }}{% if step.enddate %} - {{ step.enddate | date: '%m/%Y' }}{% endif %}</h2>
+        <div class="card-panel">
+            <h2 class="card-title">
+                {{ step.title }}
+            </h2>            
+            <h3 class="venue"> 
+                {{ step.venue }}
+            </h3>
+            <h3 class="author"> 
+                {{ step.lecturers }}
+            </h3>            
+            <p>
+                {{ step.content }}
+            </p>
+            
+            <div class="top-right"> <img width="160px", src="{{ step.logo }}"></img> </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="last-item">
+        <i class="vertical-line"></i>
+        
+    </div>
+    </div>

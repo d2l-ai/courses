@@ -1,0 +1,90 @@
+body {
+    font-size:18px;
+    font-family:'Roboto',sans-serif
+    }
+    
+    img {
+    max-width:100%
+    }
+    h1 {
+        text-transform:uppercase;
+        font-size: 40px;
+    } 
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    .card-panel {
+        position: relative;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 48px;
+        right: 24px;
+        font-size: 18px;
+      }
+
+    h1,h2,h3,h4,h5,h6 {
+    font-family:'Roboto',sans-serif;
+    
+    }
+    .item {
+    padding-top:80px;
+    min-height:150px;
+    position:relative
+    }
+    .item:before,.last-item:after {
+    background:#fff;
+    border:8px solid #2196f3;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    content:"";
+    margin-left:1rem;
+    margin-bottom: 14px;
+    position:relative;
+    z-index:1;
+    left:calc(2% - 36px)
+    }
+    .vertical-line {
+    width:8px;
+    background-color:#2196f3;
+    position:absolute;
+    left:calc(2% - 5px);
+    top:0;
+    bottom:0
+    }
+    .item .card-panel {
+    margin:0;
+    margin:2rem 0 0 3rem
+    }
+    .item-date {
+    margin-top:-60px;
+    margin-left:4rem;
+    color: #2196f3;
+    }
+    .cv-title {
+    margin-bottom:0;
+    margin-left:calc(2% - 5px);
+    line-height:190%
+    }
+    .cv-title span {
+    padding:1rem
+    }
+    .last-item{
+    padding-top:80px;
+    height:70px;
+    position:relative
+    }
+    .blue-text{color:#2196f3 !important}
+    .blue{background-color:#2196f3 !important}

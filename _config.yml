@@ -1,0 +1,25 @@
+---
+title: D2L Courses
+collections:
+  posts:
+    title: Posts
+    output: true
+  steps:
+    title: Steps
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: steps
+  values:
+    title: 
+markdown: kramdown
+highlighter: rouge
+lsi: false
+description: 
+baseurl: 
+url: https://c.d2l.a
+color: "#f2f2f2"
