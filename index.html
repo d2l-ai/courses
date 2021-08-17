@@ -10,6 +10,9 @@ layout: default
         <i class="vertical-line"></i>
         <h2 class="item-date">{{ step.date | date: '%m/%Y' }}{% if step.enddate %} - {{ step.enddate | date: '%m/%Y' }}{% endif %}</h2>
         <div class="card-panel">
+            {% if step.logo %}
+                <div class="top-right"> <img width="160px", src="{{ step.logo }}"></img> </div>
+            {% endif %}
             <h2 class="card-title">
                 {{ step.title }}
             </h2>            
@@ -23,7 +26,7 @@ layout: default
                 {{ step.content }}
             </p>
             
-            <div class="top-right"> <img width="160px", src="{{ step.logo }}"></img> </div>
+
         </div>
     </div>
     {% endfor %}

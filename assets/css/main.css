@@ -26,12 +26,21 @@ body {
         position: relative;
     }
 
-    .top-right {
-        position: absolute;
-        top: 48px;
-        right: 24px;
-        font-size: 18px;
-      }
+    @media screen and (max-width: 950px) {
+        .top-right {
+            margin-top: 10px;            
+          }
+    }
+    @media screen and (min-width: 950px) {
+        .top-right {
+            position: absolute;
+            top: 48px;
+            right: 24px;
+            font-size: 18px;
+          }
+    }
+
+    
 
     h1,h2,h3,h4,h5,h6 {
     font-family:'Roboto',sans-serif;
